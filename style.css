@@ -104,10 +104,10 @@ a:hover {
     display: block;
     padding: 10px;
     text-align: center;
-    font-size: 1.5rem
+    font-size: 1.5rem;
     color: black;
     text-decoration: none;
-    transition: all 0.4 ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 
 .menu-links li {
@@ -374,8 +374,8 @@ section {
   
   .project-img {
     border-radius: 2rem;
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: auto;
   }
   
   .project-title {
@@ -388,6 +388,18 @@ section {
     border-color: rgb(163, 163, 163);
   }
   
+  .project-details-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.project-details-container {
+  flex: 1 1 calc(33.333% - 10px); /* 3 items per row with some space between */
+  margin: 5px;
+  box-sizing: border-box;
+  text-align: center; /* Center text for better alignment */
+}
+
   /* CONTACT */
   
   #contact {
