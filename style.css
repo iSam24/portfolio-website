@@ -435,11 +435,14 @@ section {
   .contact-icon {
     cursor: default;
   }
-  
+
   .email-icon {
-    height: 2.5rem;
+    height: 3.95rem;
+    width: auto;
+    cursor: default;
+
   }
-  
+
   /* FOOTER SECTION */
   
   footer {
